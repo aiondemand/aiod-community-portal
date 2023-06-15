@@ -1,0 +1,350 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --black-2: #00000033;
+  --black-3: #00000080;
+  --blue: #41b6e6;
+  --blue-2: #0047bb;
+  --blue-charcoal: #000613;
+  --bright-gray: #3f4550;
+  --mercury: #e3e5e885;
+  --silver-chalice: #afafaf;
+  --stack: #8f8f8f;
+  --white: #ffffff;
+  --white-2: #ffffff4c;
+  --white-3: #ffffff80;
+  --white-4: #ffffffb2;
+  --yellow: #ffed00;
+ 
+  --font-size-l: 22px;
+  --font-size-m: 18px;
+  --font-size-s: 16px;
+  --font-size-xl: 30px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 13px;
+  --font-size-xxxs: 12px;
+ 
+  --font-family-jura: "Jura", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+}
+.jura-bold-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jura-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jura-light-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-semi-bold-yellow-sunshine-12px {
+  color: var(--yellow);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jura-light-white-54px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.montserrat-bold-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jura-normal-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jura-medium-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.jura-light-white-44px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-normal-white-104px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: 104px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jura-semi-bold-yellow-sunshine-22px {
+  color: var(--yellow);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-light-silver-chalice-14px {
+  color: var(--silver-chalice);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-light-white-22px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-medium-yellow-sunshine-12px {
+  color: var(--yellow);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.jura-light-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-normal-mercury-12px {
+  color: var(--mercury);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jura-semi-bold-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jura-light-white-52px {
+  font-family: var(--font-family-jura);
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jura-normal-yellow-sunshine-38px {
+  color: var(--yellow);
+  font-family: var(--font-family-jura);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jura-semi-bold-absolute-zero-12px {
+  color: var(--blue-2);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-light-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-light-white-30px {
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-semi-bold-white-12px-2 {
+  color: var(--white-4);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jura-light-white-32px {
+  font-family: var(--font-family-jura);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-bold-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jura-semi-bold-white-14px {
+  color: var(--white-3);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jura-bold-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-semi-bold-picton-blue-13px {
+  color: var(--blue);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jura-medium-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.jura-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-light-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-light-white-22px-2 {
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-light-white-28px {
+  font-family: var(--font-family-jura);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.montserrat-light-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.montserrat-extra-light-white-56px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.jura-light-yellow-sunshine-18px {
+  color: var(--yellow);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-light-stack-16px {
+  color: var(--stack);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jura-bold-yellow-sunshine-13px {
+  color: var(--yellow);
+  font-family: var(--font-family-jura);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-extra-light-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.jura-light-white-80px {
+  font-family: var(--font-family-jura);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 300;
+}

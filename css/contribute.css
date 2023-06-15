@@ -1,0 +1,660 @@
+/* screen - contribute */
+
+.contribute {
+  align-items: center;
+  background-color: var(--blue-charcoal);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1942px;
+  padding: 32px 48px;
+  width: 1440px;
+}
+
+.contribute .group-840 {
+  align-items: center;
+  display: flex;
+  gap: 885px;
+  height: 75px;
+  left: 48px;
+  min-width: 1340px;
+  position: fixed;
+  top: 32px;
+  z-index: 4;
+}
+
+.contribute .logotipo {
+  align-items: flex-start;
+  display: flex;
+  width: 150px;
+}
+
+.contribute .group {
+  height: 75px;
+  position: relative;
+  width: 150px;
+}
+
+.contribute .group-1 {
+  height: 15px;
+  left: 27px;
+  position: absolute;
+  top: 29px;
+  width: 123px;
+}
+
+.contribute .group-2 {
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 69px;
+}
+
+.contribute .frame-30 {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 1.0px;
+  position: relative;
+  width: fit-content;
+}
+
+.contribute .frame-29 {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+  position: relative;
+  width: fit-content;
+}
+
+.contribute .group-4 {
+  background-image: url(../img/rectangle-44-2.svg);
+  background-size: 100% 100%;
+  height: 44px;
+  min-width: 44px;
+  position: relative;
+}
+
+.contribute .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.contribute .frame-28 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 7px;
+  position: relative;
+  width: fit-content;
+}
+
+.contribute .frame-14 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  left: 466px;
+  position: fixed;
+  top: 47px;
+  width: fit-content;
+  z-index: 5;
+}
+
+.contribute .menu {
+  min-width: 89px;
+}
+
+.contribute .menu-1 {
+  min-width: 70px;
+}
+
+.contribute .menu-2 {
+  min-width: 79px;
+}
+
+.contribute .menu-3 {
+  min-width: 129px;
+}
+
+.contribute .menu-4 {
+  min-width: 106px;
+}
+
+.contribute .overlap-group6 {
+  height: 1007px;
+  margin-right: 1.0px;
+  margin-top: 136px;
+  position: relative;
+  width: 1029px;
+  z-index: 1;
+}
+
+.contribute .overlap-group {
+  height: 1007px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1029px;
+}
+
+.contribute .group-683 {
+  align-items: center;
+  display: flex;
+  gap: 28px;
+  height: 546px;
+  left: 121px;
+  min-width: 594px;
+  mix-blend-mode: screen;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+}
+
+.contribute .ellipse-3 {
+  background: radial-gradient(50% 50% at 50% 50%, rgb(6.8, 22.44, 56.31) 0%, rgb(0.28, 10.93, 34) 67.9%, rgb(0, 6, 19) 85.53%, rgb(0.23, 8.84, 27.5) 100%);
+  border-radius: 83px;
+  box-shadow: 20px 40px 60px #000000;
+  height: 166px;
+  margin-top: 136.0px;
+  width: 166px;
+}
+
+.contribute .ellipse-2 {
+  background: radial-gradient(50% 50% at 50% 50%, rgb(6.8, 22.44, 56.31) 0%, rgb(0.28, 10.93, 34) 67.9%, rgb(0, 6, 19) 85.53%, rgb(0.23, 8.84, 27.5) 100%);
+  border-radius: 200px;
+  box-shadow: 20px 40px 60px #000000;
+  height: 400px;
+  width: 400px;
+}
+
+.contribute .ellipse-4 {
+  background: radial-gradient(50% 50% at 50% 50%, rgb(6.8, 22.44, 56.31) 0%, rgb(0.28, 10.93, 34) 67.9%, rgb(0, 6, 19) 85.53%, rgb(0.23, 8.84, 27.5) 100%);
+  border-radius: 42.5px;
+  box-shadow: 20px 40px 60px #000000;
+  height: 85px;
+  margin-left: 24px;
+  width: 85px;
+}
+
+.contribute .bt {
+  align-items: flex-start;
+  background: radial-gradient(50% 50% at 50% 50%, rgb(65, 182, 230) 0%, rgb(0, 71, 187) 55%, rgb(0, 51, 153) 100%);
+  height: 60px;
+  justify-content: center;
+  left: 533px;
+  min-width: 144px;
+  position: absolute;
+  top: 217px;
+}
+
+.contribute .overlap-group-1 {
+  border-radius: 100px;
+  height: 60px;
+  position: relative;
+  width: 151px;
+}
+
+.contribute .rectangle-94 {
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 100%) 1;
+  border-radius: 100px;
+  height: 60px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 144px;
+}
+
+.contribute .component-60 {
+  align-items: flex-start;
+  border-radius: 100px;
+  display: flex;
+  gap: 4px;
+  left: 0;
+  padding: 24px 32px;
+  position: absolute;
+  top: 0;
+  width: fit-content;
+}
+
+.contribute .send {
+  height: 12px;
+  min-width: 12px;
+  position: relative;
+}
+
+.contribute .bt-1 {
+  align-items: flex-start;
+  background: radial-gradient(50% 50% at 50% 50%, rgb(65, 182, 230) 0%, rgb(0, 71, 187) 55%, rgb(0, 51, 153) 100%);
+  height: 60px;
+  left: 705px;
+  min-width: 144px;
+  position: absolute;
+  top: 217px;
+}
+
+.contribute .overlap-group-2 {
+  align-items: flex-start;
+  border-radius: 100px;
+  display: flex;
+  height: 60px;
+  min-width: 144px;
+  padding: 0 12.5px;
+}
+
+.contribute .component-60-1 {
+  align-items: flex-start;
+  border-radius: 100px;
+  display: flex;
+  gap: 4px;
+  padding: 24px 32px;
+  position: relative;
+  width: fit-content;
+}
+
+.contribute .use-our-tools-for-di {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 25px;
+  font-weight: 300;
+  left: 530px;
+  letter-spacing: 0;
+  line-height: 35.0px;
+  position: absolute;
+  top: 102px;
+  width: 397px;
+}
+
+.contribute .be-a-part-of-the-a-io-d-community {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(0, 71, 187) 0%, rgb(65, 182, 230) 51.04%, rgb(255, 237, 0) 100%);
+  background-clip: text;
+  left: 1px;
+  letter-spacing: -2.60px;
+  line-height: 52px;
+  position: absolute;
+  text-fill-color: transparent;
+  top: 102px;
+  width: 394px;
+}
+
+.contribute .frame-25-1 {
+  left: 0;
+  min-height: 312px;
+  position: absolute;
+  top: 695px;
+  width: 608px;
+}
+
+.contribute .title {
+  height: 34px;
+  letter-spacing: 0;
+  line-height: 44px;
+  margin-bottom: -10px;
+  margin-top: -90px;
+  white-space: nowrap;
+}
+
+.contribute .disseminate-your-project {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(0, 71, 187) 0%, rgb(65, 182, 230) 51.04%, rgb(255, 237, 0) 100%);
+  background-clip: text;
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 44px;
+  margin-bottom: -24px;
+  margin-top: 56px;
+  text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+.contribute .easily-list-your-pro {
+  letter-spacing: 0;
+  line-height: 28.8px;
+  margin-top: 34px;
+  min-height: 104px;
+  opacity: 0.6;
+  width: 498px;
+}
+
+.contribute .rectangle-352 {
+  background: linear-gradient(180deg, rgb(63, 69, 81) 0%, rgba(63, 69, 81, 0) 100%);
+  height: 1028px;
+  left: 515px;
+  position: absolute;
+  top: -73px;
+  transform: rotate(-90.00deg);
+  width: 1px;
+}
+
+.contribute .group-727 {
+  align-items: flex-start;
+  background-image: url(../img/btn-principal-23.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 184px;
+  padding: 23.6px 32px;
+  position: absolute;
+  top: 901px;
+}
+
+.contribute .vector {
+  height: 8px;
+  width: 8px;
+}
+
+.contribute .img {
+  background-color: var(--bright-gray);
+  border-radius: 20px;
+  height: 340px;
+  left: 635px;
+  position: absolute;
+  top: 605px;
+  width: 393px;
+}
+
+.contribute .frame-22 {
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 546px;
+  width: 184px;
+}
+
+.contribute .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 30px;
+  height: 79px;
+  margin-right: 105.0px;
+  margin-top: 49px;
+  min-width: 925px;
+  z-index: 2;
+}
+
+.contribute .overlap-group4 {
+  height: 61px;
+  position: relative;
+  width: 606px;
+}
+
+.contribute .spanabsolute-container {
+  height: 3px;
+  position: relative;
+  width: 289px;
+}
+
+.contribute .spanabsolute {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 289px;
+}
+
+.contribute .spanabsolute-1 {
+  background: linear-gradient(180deg, rgb(0, 71, 187) 0%, rgb(65, 182, 230) 51.04%, rgb(255, 237, 0) 100%);
+  border-radius: 9999px;
+  height: 70px;
+  left: 34px;
+  position: absolute;
+  top: -33px;
+  transform: rotate(-90.00deg);
+  width: 3px;
+}
+
+.contribute .frame-25-2 {
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.contribute .disseminate-your-project-1 {
+  letter-spacing: 0;
+  line-height: 25.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: 283px;
+}
+
+.contribute .overlap-group1 {
+  height: 56px;
+  left: 318px;
+  position: absolute;
+  top: 1px;
+  width: 288px;
+}
+
+.contribute .spanabsolute-2 {
+  background-color: var(--white);
+  border-radius: 9999px;
+  height: 288px;
+  left: 144px;
+  opacity: 0.3;
+  position: absolute;
+  top: -143px;
+  transform: rotate(-90.00deg);
+  width: 1px;
+}
+
+.contribute .pchakra-text {
+  align-items: flex-start;
+  display: flex;
+  padding: 0px 154.33px 0px 0px;
+  position: relative;
+  width: fit-content;
+}
+
+.contribute .how-to-engage-with-the-community {
+  letter-spacing: 0;
+  line-height: 22px;
+  opacity: 0.4;
+  position: relative;
+  white-space: nowrap;
+  width: 286px;
+}
+
+.contribute .overlap-group2 {
+  align-self: flex-end;
+  height: 78px;
+  position: relative;
+  width: 289px;
+}
+
+.contribute .spanabsolute-3 {
+  background-color: var(--white);
+  border-radius: 9999px;
+  height: 289px;
+  left: 144px;
+  opacity: 0.3;
+  position: absolute;
+  top: -144px;
+  transform: rotate(-90.00deg);
+  width: 1px;
+}
+
+.contribute .how-to-use-the-cd-r {
+  letter-spacing: 0;
+  line-height: 22px;
+  opacity: 0.4;
+  position: relative;
+  width: 288px;
+}
+
+.contribute .group-782 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 180px;
+  min-width: 1324px;
+  z-index: 3;
+}
+
+.contribute .overlap-group3 {
+  height: 406px;
+  position: relative;
+  width: 1330px;
+}
+
+.contribute .group-780 {
+  height: 406px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1330px;
+}
+
+.contribute .flex-row {
+  align-items: center;
+  background-image: url(../img/rectangle-99-8.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 355px;
+  left: 0;
+  min-width: 1324px;
+  padding: 42px;
+  position: absolute;
+  top: 0;
+}
+
+.contribute .flex-row-1 {
+  align-items: flex-end;
+  align-self: flex-start;
+  display: flex;
+  gap: 137px;
+  height: 250px;
+  min-width: 439px;
+}
+
+.contribute .group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 139px;
+  min-height: 250px;
+  width: 181px;
+}
+
+.contribute .group-container-1 {
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+.contribute .bt-2 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--yellow);
+  gap: 8px;
+  justify-content: center;
+  padding: 10px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.contribute .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  margin-top: 2.0px;
+  min-height: 227px;
+  width: 137px;
+}
+
+.contribute .group-30 {
+  align-items: flex-end;
+  display: flex;
+  gap: 25px;
+  margin-top: 8px;
+  min-width: 95px;
+  opacity: 0.5;
+  padding: 0 0.0px;
+}
+
+.contribute .bt-3 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--yellow);
+  gap: 8px;
+  justify-content: center;
+  margin-top: 47px;
+  padding: 10px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.contribute .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 23.46px;
+  margin-left: 181px;
+  min-height: 200px;
+  width: 287px;
+}
+
+.contribute .bt-4 {
+  align-items: center;
+  background-color: var(--blue);
+  gap: 8px;
+  height: 43px;
+  justify-content: center;
+  margin-left: 0.19px;
+  padding: 10px 16px;
+  position: relative;
+  width: 122px;
+}
+
+.contribute .flex-row-2 {
+  align-items: center;
+  display: flex;
+  gap: 992px;
+  height: 18px;
+  left: 42px;
+  min-width: 1232px;
+  position: absolute;
+  top: 388px;
+}
+
+.contribute .group-777 {
+  background-image: url(../img/frame-5.svg);
+  background-size: 100% 100%;
+  height: 11px;
+  margin-top: 1.0px;
+  width: 41px;
+}
+
+.contribute .develop {
+  top: 93px;
+}
+
+.contribute .bt-5 {
+  border-radius: 100px;
+  display: flex;
+}
+
+.contribute .frame-25-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.contribute .menu-5 {
+  height: 44px;
+  position: relative;
+}
