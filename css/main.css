@@ -1,0 +1,55 @@
+:root {
+    --aiod-c-black: #000613;
+    --aiod-c-blue: #0047BB;
+    --aiod-c-cyan: #41B6E6;
+    --aiod-c-yellow: #FFED00;
+    --aiod-c-white: #FFFFFF;
+    --aiod-c-blue-dark: #0F2B67;
+    --aiod-c-blue-var: #003399;
+
+    --aiod-gradient: linear-gradient(
+            89.86deg,
+            var(--aiod-c-blue) 0.15%,
+            var(--aiod-c-cyan) 50.55%,
+            var(--aiod-c-yellow) 99.91%
+    );
+    --aiod-gradient-azul: radial-gradient(
+            50% 50% at 50% 50%,
+            var(--aiod-c-blue) 0%,
+            var(--aiod-c-cyan) 100%
+    );
+    --aiod-gradient-azul-button: radial-gradient(
+            43.6% 43.6% at 49.98% 100.45%,
+            var(--aiod-c-cyan) 0%,
+            var(--aiod-c-blue) 55%,
+            var(--aiod-c-blue-var) 100%
+    );
+    --aiod-gradient-azul-button-hover: radial-gradient(
+            129.11% 129.11% at 49.98% 100.45%,
+            var(--aiod-c-cyan) 0%,
+            var(--aiod-c-blue) 55%,
+            var(--aiod-c-blue-var) 100%
+    );
+
+
+    --aiod-gradient-dark: radial-gradient(
+            55.8% 55.8% at 50% 44.2%,
+            var(--aiod-c-blue-dark) 0%,
+            var(--aiod-c-black) 100%
+    );
+}
+
+body {
+    margin: 0;
+    background: var(--aiod-c-black);
+}
+
+.gradient-text {
+    background-color: var(--aiod-c-yellow);
+    background-image: var(--aiod-gradient);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}

@@ -324,8 +324,7 @@
 }
 
 .rectangle-94-1 {
-  border: 1px solid;
-  border-color: transparent;
+  border: 1px solid transparent !important;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 100%) 1;
   border-radius: 100px;
   height: 60px;
@@ -404,12 +403,12 @@
 .ai-ecosystem-forum-2023-in-greece {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(0, 71, 187) 0%, rgb(65, 182, 230) 51.04%, rgb(255, 237, 0) 100%);
+  background: var(--aiod-gradient);
   background-clip: text;
-  height: 20px;
+  height: 40px;
   letter-spacing: 0;
   line-height: 44px;
-  margin-top: -12px;
+  margin-top: -32px;
   text-fill-color: transparent;
   white-space: nowrap;
 }

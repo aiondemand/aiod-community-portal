@@ -216,10 +216,9 @@
   -webkit-backdrop-filter: blur(20px) brightness(100%);
   backdrop-filter: blur(20px) brightness(100%);
   background: radial-gradient(50% 50% at 50% 50%, rgba(65, 182, 230, 0.8) 0%, rgba(0, 71, 187, 0.8) 55%, rgba(0, 51, 153, 0.8) 100%);
-  border: 1px solid;
-  border-color: transparent;
+  border: 1px solid transparent !important;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 100%) 1;
-  border-radius: 24px 24px 0px 0px;
+  border-radius: 24px;
   height: 584px;
   left: 73px;
   position: absolute;
@@ -1037,8 +1036,7 @@
 .home-1440-login .bt-6 {
   align-items: center;
   background-color: var(--blue-2);
-  border: 1px solid;
-  border-color: transparent;
+  border: 1px solid transparent !important;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25) 53.65%, rgba(255, 255, 255, 0) 100%) 1;
   gap: 8px;
   justify-content: center;

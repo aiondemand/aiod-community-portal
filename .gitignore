@@ -6,7 +6,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-# Laravel specific
+# Laravel specific files
 /.phpunit.cache
 /node_modules
 /public/build
@@ -26,7 +26,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-# General
+# General system files
 .apdisk
 .AppleDouble
 .directory
