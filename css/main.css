@@ -1,5 +1,6 @@
 :root {
     --aiod-c-black: #000613;
+    --aiod-c-black-rgb: 0, 6, 19;
     --aiod-c-blue: #0047BB;
     --aiod-c-cyan: #41B6E6;
     --aiod-c-yellow: #FFED00;
@@ -68,4 +69,78 @@ body {
 
 .development-roadmap ul li span.date {
     font-weight: 100; opacity: 0.65;
+}
+
+.menu-backdrop {
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 107px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(var(--aiod-c-black-rgb), 1) 25%, rgba(var(--aiod-c-black-rgb), 0) 100%);
+    z-index: 4;
+}
+
+.menu-wrapper {
+    display: block;
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    height: 107px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.menu-contents {
+    display: flex;
+    height: 107px;
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0;
+    z-index:5;
+    gap: 32px;
+    margin-top: 0;
+    align-content: center;
+    align-items: center;
+}
+
+.menu-contents .menu-logo {
+    width: 20%;
+    height: 75px;
+}
+.menu-contents .menu-items {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+.menu-contents .menu-items a {
+    display: block !important;
+}
+
+.menu-contents .menu-login {
+    display: flex;
+    width: 20%;
+    gap: 16px;
+    justify-content: right;
+    justify-items: baseline;
+}
+.menu-contents .menu-login div {
+}
+
+
+.menu::before {
+    display: block;
+    width: 100%;
+    height: 32px;
+    top: -32px;
+    background-color: var(--aiod-c-black);
+    position: absolute;
+    content: '';
+}
+.menu {
+    background: linear-gradient(180deg, rgba(var(--aiod-c-black-rgb), 1) 40%, rgba(var(--aiod-c-black-rgb), 0) 100%);
 }
