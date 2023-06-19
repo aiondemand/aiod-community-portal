@@ -53,3 +53,19 @@ body {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+.development-roadmap {
+    padding: 20px;
+    font-size: 20px;
+}
+.development-roadmap ul li {
+    padding: 20px 10px;
+    font-size:24px;
+}
+.development-roadmap ul li span.version {
+    font-weight: 800; padding-right: 30px;
+}
+
+.development-roadmap ul li span.date {
+    font-weight: 100; opacity: 0.65;
+}

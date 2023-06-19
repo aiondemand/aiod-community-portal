@@ -50,6 +50,9 @@
   white-space: nowrap;
   width: fit-content;
 }
+.know-more a {
+  color: inherit;
+}
 
 .icon_arrow-right {
   height: 12px;
@@ -324,8 +327,11 @@
 }
 
 .rectangle-94-1 {
-  border: 1px solid transparent !important;
+  box-shadow: inset 1px 2px 2px -2px rgba(255, 255, 255, 0.5),
+              inset -1px -2px 2px -2px rgba(255, 255, 255, 0.25);
+  /*
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 100%) 1;
+   */
   border-radius: 100px;
   height: 60px;
   left: 4px;
@@ -382,6 +388,10 @@
   margin-top: -1.00px;
   position: relative;
   width: 354px;
+}
+.i-nergy-open-call-2-evaluation-report a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .date-container {
@@ -656,12 +666,18 @@
   width: 354px;
 }
 
+.ai4-media-releases-th a {
+  color: inherit;
+}
+
 .date-2 {
   letter-spacing: 0;
   line-height: 18px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
+  position: relative;
+  top: 25px;
 }
 
 .frame-22-1 {

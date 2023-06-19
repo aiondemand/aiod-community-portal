@@ -83,7 +83,7 @@
 .news-single-page .title {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(0, 71, 187) 0%, rgb(65, 182, 230) 51.04%, rgb(255, 237, 0) 100%);
+  background: var(--aiod-gradient);
   background-clip: text;
   left: 206px;
   letter-spacing: -2.60px;
@@ -527,12 +527,12 @@
 .news-single-page .lorem-ipsum-dolor-sit-amet {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(0, 71, 187) 0%, rgb(65, 182, 230) 51.04%, rgb(255, 237, 0) 100%);
+  background: var(--aiod-gradient);
   background-clip: text;
-  height: 20px;
+  height: 40px;
   letter-spacing: 0;
   line-height: 44px;
-  margin-top: -11px;
+  margin-top: -10px;
   text-fill-color: transparent;
   white-space: nowrap;
 }

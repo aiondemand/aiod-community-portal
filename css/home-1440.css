@@ -113,8 +113,11 @@
 }
 
 .home-1440 .rectangle-94 {
-  border: 1px solid transparent !important;
+  box-shadow: inset 1px 2px 2px -2px rgba(255, 255, 255, 0.5),
+              inset -1px -2px 2px -2px rgba(255, 255, 255, 0.25);
+  /*
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 100%) 1;
+   */
   border-radius: 100px;
   height: 60px;
   left: 4px;
@@ -289,7 +292,7 @@
 
 .home-1440 .a-io-d-explorer {
   height: 34px;
-  left: 555px;
+  left: 435px;
   line-height: 44px;
   top: 4032px;
   white-space: nowrap;
@@ -301,7 +304,8 @@
   background: var(--aiod-gradient);
   background-clip: text;
   height: 44px;
-  left: 466px;
+  width: 100%;
+  text-align: center;
   letter-spacing: 0;
   line-height: 74px;
   position: absolute;
@@ -462,7 +466,8 @@
 }
 
 .home-1440 .img-2 {
-  background-color: var(--bright-gray);
+  background: linear-gradient(180deg, hsl(220, 12%, 28%) 0%, hsla(0, 0%, 100%, 0.35) 100%);
+  // background-color: var(--bright-gray);
   border-radius: 20px;
   height: 578px;
   left: 205px;
@@ -553,7 +558,7 @@
 .home-1440 .disseminate-your-project {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(0, 71, 187) 0%, rgb(65, 182, 230) 51.04%, rgb(255, 237, 0) 100%);
+  background: var(--aiod-gradient);
   background-clip: text;
   letter-spacing: 0;
   line-height: 30.8px;
@@ -639,7 +644,7 @@
 
 .home-1440 .group-716 {
   align-items: center;
-  background-image: url(../img/btn-principal-4.svg);
+  background-image: url(../img/btn-principal-5.svg);
   background-size: 100% 100%;
   display: flex;
   height: 60px;
@@ -705,6 +710,9 @@
   margin-top: -1.00px;
   position: relative;
   width: 354px;
+}
+.home-1440 .irida-labs-to-exhibi a {
+  color:inherit;
 }
 
 .home-1440 .bt-2 {
