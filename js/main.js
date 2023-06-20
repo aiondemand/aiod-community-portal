@@ -1,5 +1,6 @@
 window.onload = function () {
     const links = document.getElementsByTagName('a');
+    const underConstructionEl = document.getElementById("under-construction");
 
     for (let i = 0; i < links.length; i++) {
         let link = links[i];
@@ -8,8 +9,10 @@ window.onload = function () {
         if (href === '#') {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
-                alert('AIoD Community Demo. The page you have requested is ' +
-                    'currently under construction.');
+                underConstructionEl.classList.add("shake");
+                setTimeout(function() {
+                    underConstructionEl.classList.remove("shake");
+                }, 1000);
             });
         } else if (href.startsWith('#')) {
             link.addEventListener('click', function(e) {

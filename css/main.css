@@ -92,7 +92,7 @@ body {
     height: 107px;
     width: 100%;
     background: linear-gradient(180deg, rgba(var(--aiod-c-black-rgb), 1) 25%, rgba(var(--aiod-c-black-rgb), 0) 100%);
-    z-index: 4;
+    z-index: 20;
 }
 
 .menu-wrapper {
@@ -114,7 +114,7 @@ body {
     margin-right: auto;
     position: fixed;
     top: 0;
-    z-index:5;
+    z-index: 30;
     gap: 32px;
     margin-top: 0;
     align-content: center;
@@ -133,6 +133,19 @@ body {
 }
 .menu-contents .menu-items a {
     display: block !important;
+    border-radius: 25px;
+    color: var(--aiod-c-white);
+    transition: all 0.15s ease-in;
+
+}
+.menu-contents .menu-items a:hover {
+    background-color: var(--aiod-c-blue);
+    color: var(--aiod-c-yellow) !important;
+    box-shadow: inset 1px 2px 2px -2px rgba(255, 255, 255, 0.5),
+        inset -1px -2px 2px -2px rgba(255, 255, 255, 0.25);
+}
+.menu-contents .menu-items a:hover img {
+    color: inherit;
 }
 
 .menu-contents .menu-login {
@@ -144,7 +157,6 @@ body {
 }
 .menu-contents .menu-login div {
 }
-
 
 .menu::before {
     display: block;
@@ -183,6 +195,8 @@ body {
     margin: -50px 0 0 -50px;
     z-index: 200;
     cursor: not-allowed;
+    border-radius: 20px;
+    transition: all .4s ease-in-out;
 }
 .message {
     position: absolute;
@@ -193,6 +207,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.4);
     background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(15px) contrast(80%);
+    transition: all .4s ease-in-out;
 }
 
 .message-content {
@@ -215,14 +230,47 @@ body {
     text-align: center;
     animation: gradient-rgb 10s ease-in-out infinite;
 }
+
+.under-construction.shake {
+    animation: shake-construction 1s infinite;
+    background-color: var(--aiod-c-white);
+}
+.under-construction.shake .message {
+    background-color: var(--aiod-c-white);
+}
+.under-construction.shake .message-text {
+    color: var(--aiod-c-black);
+    background-image: none !important;
+    background-color: var(--aiod-c-black);
+    animation: none;
+}
+
 @keyframes gradient-rgb {
     0% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
     50% {
         background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
+    }
+}
+
+@keyframes shake-construction {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
     }
 }
