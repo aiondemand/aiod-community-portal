@@ -91,6 +91,33 @@
   width: fit-content;
 }
 
+.login-user {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+  position: relative;
+  width: fit-content;
+}
+
+.login-name {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.logout-user {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 7px;
+  position: relative;
+  width: fit-content;
+}
+
+
 .lobacx {
   letter-spacing: 0;
   line-height: 13px;
@@ -239,6 +266,7 @@
   letter-spacing: 0;
   line-height: 38px;
   width: 287px;
+  white-space: normal;
 }
 
 .maketing-portal {
@@ -672,7 +700,6 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
-  position: relative;
   top: 25px;
 }
 

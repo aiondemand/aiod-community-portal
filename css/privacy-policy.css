@@ -69,15 +69,7 @@
   position: absolute;
   top: 466px;
   width: 599px;
-}
-
-.privacy-policy .x1 {
-  left: 212px;
-  letter-spacing: 0;
-  line-height: 42.0px;
-  position: absolute;
-  top: 448px;
-  width: 287px;
+  white-space: normal;
 }
 
 .privacy-policy .group-789 {
@@ -100,6 +92,7 @@
   margin-right: 6px;
   opacity: 0.6;
   width: 600px;
+  white-space: normal;
 }
 
 .privacy-policy .flex-row {
@@ -110,13 +103,6 @@
   min-width: 1017px;
 }
 
-.privacy-policy .x2 {
-  letter-spacing: 0;
-  line-height: 42.0px;
-  min-height: 168px;
-  width: 287px;
-}
-
 .privacy-policy .lorem-ipsum-dolor-si {
   align-self: flex-end;
   height: 161px;
@@ -124,26 +110,27 @@
   line-height: 25.2px;
   opacity: 0.6;
   width: 600px;
+  white-space: normal;
 }
 
 .privacy-policy .title {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(0, 71, 187) 0%, rgb(65, 182, 230) 51.04%, rgb(255, 237, 0) 100%);
+  background: var(--aiod-gradient);
   background-clip: text;
   left: 206px;
   letter-spacing: -2.60px;
-  line-height: 52px;
+  line-height: 62px;
   position: absolute;
   text-fill-color: transparent;
-  top: 270px;
+  top: 260px;
   white-space: nowrap;
 }
 
 .privacy-policy .lorem-ipsum-dolor-si-3 {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(180deg, rgb(0, 71, 187) 0%, rgb(65, 182, 230) 51.04%, rgb(255, 237, 0) 100%);
+  background: var(--aiod-gradient);
   background-clip: text;
   color: transparent;
   font-family: var(--font-family-jura);
@@ -292,13 +279,6 @@
   z-index: 3;
 }
 
-.privacy-policy .x3 {
-  letter-spacing: 0;
-  line-height: 42.0px;
-  min-height: 168px;
-  width: 287px;
-}
-
 .privacy-policy .group-790 {
   align-items: flex-start;
   display: flex;
@@ -319,13 +299,6 @@
   margin-top: 79px;
   min-width: 1021px;
   z-index: 5;
-}
-
-.privacy-policy .x3-1 {
-  letter-spacing: 0;
-  line-height: 42.0px;
-  min-height: 168px;
-  width: 287px;
 }
 
 .privacy-policy .group-791 {
@@ -418,6 +391,10 @@
   width: 135px;
 }
 
+.privacy-policy .menu-item {
+  height: 44px;
+}
+
 .privacy-policy .menu-6 {
   height: 44px;
   left: 0;
@@ -495,6 +472,10 @@
   white-space: nowrap;
 }
 
+.privacy-policy .privacy-policy-1 a {
+  color: var(--aiod-c-white)
+}
+
 .privacy-policy .bt-1 {
   border: 1px solid;
   border-color: var(--yellow);
@@ -505,7 +486,7 @@
 .privacy-policy .bt-2 {
   background-color: var(--blue);
   height: 43px;
-  margin-left: 0.19px;
+  margin-left: 1px;
   width: 122px;
 }
 
@@ -545,9 +526,44 @@
   width: fit-content;
 }
 
+.privacy-policy .x1 {
+  left: 212px;
+  letter-spacing: 0;
+  line-height: 42.0px;
+  position: absolute;
+  top: 448px;
+  width: 287px;
+  white-space: normal;
+}
+
+.privacy-policy .x2 {
+  letter-spacing: 0;
+  line-height: 42.0px;
+  min-height: 168px;
+  width: 287px;
+  white-space: normal;
+}
+
 .privacy-policy .x2-3 {
   letter-spacing: 0;
   line-height: 42.0px;
   min-height: 168px;
   width: 287px;
+  white-space: normal;
+}
+
+.privacy-policy .x3 {
+  letter-spacing: 0;
+  line-height: 42.0px;
+  min-height: 168px;
+  width: 287px;
+  white-space: normal;
+}
+
+.privacy-policy .x3-1 {
+  letter-spacing: 0;
+  line-height: 42.0px;
+  min-height: 168px;
+  width: 287px;
+  white-space: normal;
 }
