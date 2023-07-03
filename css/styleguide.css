@@ -26,6 +26,7 @@
  
   --font-family-jura: "Jura", Helvetica;
   --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-comfortaa: "Comfortaa", Helvetica;
 }
 .jura-bold-white-13px {
   color: var(--white);
